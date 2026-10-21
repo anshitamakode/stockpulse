@@ -144,8 +144,6 @@ See [ADR.md](ADR.md) for why each of these choices was made and what was rejecte
 
 ## How I used AI
 
-> Edit this section so it reflects your own process.
-
 I used AI as a pair programmer: to scaffold the Spring Boot layers and React components from my
 architecture rules, to draft the rule tables and test cases, and to review edge cases (duplicate
 signals, superseding, concurrent accepts, LLM output that breaks guardrails). I made the design
