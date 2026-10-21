@@ -63,7 +63,7 @@ If a model stops answering, list the models your key can use and pick a fast one
 (Invoke-RestMethod "https://generativelanguage.googleapis.com/v1beta/models" -Headers @{ "x-goog-api-key" = "<key>" }).models.name
 ```
 
-## Demo script (≈ 2 minutes)
+## Demo
 
 1. **Low stock.** On *Organic Cotton T-Shirt* (8 in stock, threshold 15) click **Sell 1**. The toast
    says a low-stock signal fired; two cards appear as *Generating…*, then turn into a price raise and
