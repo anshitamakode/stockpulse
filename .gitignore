@@ -1,0 +1,15 @@
+# Java
+backend/target/
+*.class
+.idea/
+*.iml
+.vscode/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+*.env
+backend/local.properties
